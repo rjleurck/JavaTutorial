@@ -1,0 +1,63 @@
+Download the latest verision of eclipse for java ee developers (use a google search to locate the eclipse download for your operating system)
+For this tutorial I downloaded Eclipse Juno
+
+The Eclipse download will be in 'compressed' format. You will need to expand this file.
+
+There are a variety of tools for 'de-compressing' files . In windows 7-zip is a nice tool.
+
+For linux unzip, or tar -xzvf should effect the de-compression. If these tools are new to you, try some google searching to learn more about these decompression tools. In short they expand one file into many usually with subfolders as well.
+
+I downloaded a file with an 'extension' of 'tar.gz' . This means I will use the 'tar' tool to expand this file.
+
+My command is tar -zxvf theNameOfTheFileIDownloaded . This command is exexcuted from a 'command window'. A command window is also referred to as a 'terminal' window or a 'command' (cmd.exe) .
+
+This 'terminal' window is a multi-line window where each 'typed' line is an 'command' to the operating system asking the operating system to perform a function.
+
+One such function is to 'expand' the 'compressed' file. :-)
+
+So, by  typing a 'command line' you ask the operating system to do some work for you ;-)
+
+
+To open a 'command' window there are two basic commands. In Linux pressing the 'ctrl alt and t ' keys will open a 'terminal' window. In windows selecting the 'start' button (if you can find it) and typing cmd will open a command window.
+
+An even easier method is to open a 'command' window from a graphical file exporer. This tool will open he command window in the folder (or directory in linux speak) where you may want to execute your command.
+
+Why does the directory where you execute your command make a difference ? Because , once you open a command window on an operating system you are 'located' on a 'path' determined by the operaitng system. A 'path' is a location in a hierarchal list of folders .
+
+What is a 'hierarchical' list of folders ? If you understand this concept, great. If not try some googling. I'll try to explain.
+
+All operating systems contain programs and data that is organized in a 'path' where that program can be found. In fact the familar pattern of http://www.yahoo.com is a 'path'. http:// is a 'protocol' . 'www.yahoo.com' is a 'server name' .
+
+This path says locate the resource that resides on server 'www.yahoo.com' using the 'http' protocol.
+
+This 'path' is also called a URL - 'Universal Resource Locator' or more formally a 'URI' Universal Resource Identifier . 
+
+In a windows operating system a path starts with the name of the 'hard drive' installed on the computer. The letter 'C:\' is the common hard drive name for  windows path starting location. In linux it is just '/' so for Windows 'C:\' and Linux '/' .
+
+A file called hello.jsp in 'bobs' folder would have a path of /bob/hello.jsp for linux and c:\bob\hello.jsp .
+
+Did you  notice one path used a '/' anf the other used a '\' . Go figure . This is a programmers perogative ;-) .
+
+While Unix and Linux preceded Windows , the windows programmers decided to change the path seperator. Most likely due to patent concerns or jsut personal preference.
+
+The important point is that a 'path' is a list of directories and sub directories seperated by a 'file' seperator and terminating in the file or universal resource that is described by the path ;-)
+
+This is importanrt for web applications as they are in essence just serving up a file requested by a user through a request for a Universal Resource that was made by the user's browser.
+
+A user types (or clicks on a link that does the 'typing' for them for a file called http://espn.com/showMeTheMoney.video and they see a movie about showing someone some money ;-)
+
+This is effected by the browser organizing a request to 'server' espn.com for the video file 'showMeTheMoney.video '
+
+Pretty simple :-)
+
+A lot of concepts have been discussed. They are 'protocols' , URI or URL , directories, operating systems, command windows and paths.
+
+A web application services a protocal request for  file by locating the resource requested by determing the correct path to that resource on the operating system and 'reading' that file and 'streaming' it to the 'client' that requested the resource. This is a lot of words to descibe serving up a web page to a browser ;-)
+
+Pretty simple :-)
+
+In this tutorial , we will use an IDE (Interactive Development Environment) to create a web page, a web server and deploy that page to the webserver. We will use the 'tomcat' application server to serve our web page and we will use both and 'html' page and a 'jsp' page to distinguis between a 'static' and 'dynamic' web page.
+
+
+
+
