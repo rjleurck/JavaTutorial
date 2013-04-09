@@ -52,7 +52,7 @@ Pretty simple :-)
 
 A lot of concepts have been discussed. They are 'protocols' , URI or URL , directories, operating systems, command windows and paths.
 
-A web application services a protocal request for  file by locating the resource requested by determing the correct path to that resource on the operating system and 'reading' that file and 'streaming' it to the 'client' that requested the resource. This is a lot of words to descibe serving up a web page to a browser ;-)
+A web application services a protocol request for  file by locating the resource requested by determing the correct path to that resource on the operating system and 'reading' that file and 'streaming' it to the 'client' that requested the resource. This is a lot of words to descibe serving up a web page to a browser ;-)
 
 Pretty simple :-)
 
